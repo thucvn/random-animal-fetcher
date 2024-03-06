@@ -1,0 +1,32 @@
+{
+    "name": "random-animal-fetcher",
+    "version": "1.0.0",
+    "description": "Fetch and display random dog images or ASCII cat art.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thucvn/random-animal-fetcher.git"
+    },
+    "keywords": [
+        "random", 
+        "dog", 
+        "cat", 
+        "ascii",
+        "random-animal-fetcher",
+        "fetcher"
+    ],
+    "author": "thucvn",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thucvn/random-animal-fetcher/issues"
+    },
+    "homepage": "https://github.com/thucvn/random-animal-fetcher#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "figlet": "^1.5.0"
+    }
+}
